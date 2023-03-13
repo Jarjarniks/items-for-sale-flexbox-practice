@@ -5,3 +5,18 @@ html {
 *, *::before, *::after {
     box-sizing: inherit;
 }
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.item-container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.item {
+    display: flex;
+    flex-flow: column wrap;
+}
