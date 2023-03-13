@@ -19,4 +19,13 @@ html {
 .item {
     display: flex;
     flex-flow: column wrap;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    border: 0.5rem solid yellowgreen;
+    border-radius: 2rem;
+}
+
+.item > img {
+    width: 300px;
 }
